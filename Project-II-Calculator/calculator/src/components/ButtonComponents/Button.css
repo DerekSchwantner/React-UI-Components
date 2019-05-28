@@ -1,0 +1,32 @@
+.button-wrapper {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background-color: white;
+  color: #000000;
+  flex: 1;
+  outline: 2px solid #888;
+}
+
+.operator {
+  background-color: #bb1333;
+  color: white;
+  width: 25%;
+}
+
+.large-btn {
+  height: 4em;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: white;
+  color: #000000;
+  /* flex: 1; */
+  outline: 2px solid #888;
+}
