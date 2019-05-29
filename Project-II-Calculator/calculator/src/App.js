@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import ActionButton from "./components/ButtonComponents/ActionButton";
 import { CalculatorDisplay } from "./components/DisplayComponents/CalculatorDisplay";
-import { ClearButton } from "./components/ButtonComponents/ClearButton";
+import NumberButton from "./components/ButtonComponents/NumberButton";
 
 const App = () => {
   return (
@@ -10,30 +10,30 @@ const App = () => {
       <div className="calc-wrapper">
         <CalculatorDisplay />
         <div className="row">
-          <ClearButton>Clear</ClearButton>
-          <ActionButton>÷</ActionButton>
+          <ActionButton text="Clear" />
+          <NumberButton buttonStyle="operator-button" text="÷" />
         </div>
         <div className="row">
-          <ActionButton>7</ActionButton>
-          <ActionButton>8</ActionButton>
-          <ActionButton>9</ActionButton>
-          <ActionButton>X</ActionButton>
+          <NumberButton buttonStyle="button-wrapper" text="7" />
+          <NumberButton buttonStyle="button-wrapper" text="8" />
+          <NumberButton buttonStyle="button-wrapper" text="9" />
+          <NumberButton buttonStyle="operator-button" text="X" />
         </div>
         <div className="row">
-          <ActionButton>4</ActionButton>
-          <ActionButton>5</ActionButton>
-          <ActionButton>6</ActionButton>
-          <ActionButton>-</ActionButton>
+          <NumberButton buttonStyle="button-wrapper" text="4" />
+          <NumberButton buttonStyle="button-wrapper" text="5" />
+          <NumberButton buttonStyle="button-wrapper" text="6" />
+          <NumberButton buttonStyle="operator-button" text="-" />
         </div>
         <div className="row">
-          <ActionButton>1</ActionButton>
-          <ActionButton>2</ActionButton>
-          <ActionButton>3</ActionButton>
-          <ActionButton>+</ActionButton>
+          <NumberButton buttonStyle="button-wrapper" text="1" />
+          <NumberButton buttonStyle="button-wrapper" text="2" />
+          <NumberButton buttonStyle="button-wrapper" text="3" />
+          <NumberButton buttonStyle="operator-button" text="+" />
         </div>
         <div className="row">
-          <ClearButton>0</ClearButton>
-          <ActionButton>=</ActionButton>
+          <ActionButton text="0" />
+          <NumberButton buttonStyle="operator-button" text="=" />
         </div>
       </div>
     </div>
@@ -41,3 +41,39 @@ const App = () => {
 };
 
 export default App;
+
+// const App = () => {
+//   return (
+//     <div className="App">
+//       <div className="calc-wrapper">
+//         <CalculatorDisplay />
+//         <div className="row">
+//           <ActionButton>Clear</ActionButton>
+//           <NumberButton>÷</NumberButton>
+//         </div>
+//         <div className="row">
+//           <NumberButton>7</NumberButton>
+//           <NumberButton>8</NumberButton>
+//           <NumberButton>9</NumberButton>
+//           <NumberButton>X</NumberButton>
+//         </div>
+//         <div className="row">
+//           <NumberButton>4</NumberButton>
+//           <NumberButton>5</NumberButton>
+//           <NumberButton>6</NumberButton>
+//           <NumberButton>-</NumberButton>
+//         </div>
+//         <div className="row">
+//           <NumberButton>1</NumberButton>
+//           <NumberButton>2</NumberButton>
+//           <NumberButton>3</NumberButton>
+//           <NumberButton>+</NumberButton>
+//         </div>
+//         <div className="row">
+//           <ActionButton>0</ActionButton>
+//           <NumberButton>=</NumberButton>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };

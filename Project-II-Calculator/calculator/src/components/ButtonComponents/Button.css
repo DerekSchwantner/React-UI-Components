@@ -1,30 +1,44 @@
 .button-wrapper {
-  height: 4em;
+  height: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   background-color: white;
   color: #000000;
   flex: 1;
   outline: 2px solid #888;
 }
 
-.operator {
+/* .operator {
   background-color: #bb1333;
   color: white;
   width: 25%;
+  
+} */
+
+.operator-button {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #bb1333;
+  color: white;
+  flex: 1;
+  outline: 2px solid #888;
 }
 
 .large-btn {
-  height: 4em;
+  height: 6rem;
   width: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.5rem;
   background-color: white;
   color: #000000;
   /* flex: 1; */

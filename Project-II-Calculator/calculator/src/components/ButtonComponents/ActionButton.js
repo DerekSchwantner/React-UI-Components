@@ -1,18 +1,8 @@
 import React from "react";
 import "./Button.css";
 
-const isOperator = val => {
-  return !isNaN(val) || val === ".";
-};
-
-const ActionButton = props => (
-  <div
-    className={`button-wrapper ${
-      isOperator(props.children) ? null : "operator"
-    }`}
-  >
-    {props.children}
-  </div>
+export const ActionButton = props => (
+  <div className="large-btn">{props.text}</div>
 );
 
 export default ActionButton;
