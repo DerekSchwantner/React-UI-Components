@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.card-banner img {
+  max-width: 400px;
+}
+
+.card-content {
+  width: 400px;
+  border: 1px solid lightgrey;
+  font-size: 0.8rem;
+}
