@@ -3,7 +3,7 @@ import "./Button.css";
 
 const ActionButton = props => (
   //   <div className="large-btn">{props.text}</div>
-  <div className={props.buttonStyle}>{props.text}</div>
+  <button className={props.buttonStyle}>{props.text}</button>
 );
 
 export default ActionButton;

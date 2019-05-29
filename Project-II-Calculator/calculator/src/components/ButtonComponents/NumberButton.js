@@ -17,7 +17,7 @@ const isOperator = val => {
 
 const NumberButton = props => {
   //   return <div className="button-wrapper">{props.text}</div>;
-  return <div className={props.buttonStyle}>{props.text}</div>;
+  return <button className={props.buttonStyle}>{props.text}</button>;
 };
 
 export default NumberButton;
