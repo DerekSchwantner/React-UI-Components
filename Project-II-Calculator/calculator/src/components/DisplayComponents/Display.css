@@ -4,9 +4,9 @@
   justify-content: flex-end;
   align-items: center;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 5rem;
   background-color: #000000d4;
-  color: #88888888;
+  color: white;
   flex: 1;
   outline: 2px solid #888;
 }

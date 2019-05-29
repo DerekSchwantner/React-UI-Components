@@ -1,7 +1,9 @@
 import React from "react";
 import "./Display.css";
 
-export const CalculatorDisplay = props => (
-  <div className="calculator-display">{props.input}</div>
-  // <div className={props.buttonStyle}>{props.input}</div>
+const CalculatorDisplay = props => (
+  // <div className="calculator-display">{props.text}</div>
+  <div className={props.buttonStyle}>{props.text}</div>
 );
+
+export default CalculatorDisplay;
